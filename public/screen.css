@@ -7,3 +7,50 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+section.nav-bar {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font: 13px helvetica,arial,freesans,clean,sans-serif;
+  background-color: lightgrey;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+section.nav-bar a {
+  width: 175%;
+  height: 22%;
+  color: black;
+}
+
+.links ul li {
+  padding: 1em;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+}
+
+
+.num {
+  display: flex;
+  flex-direction: row;
+}
+
+.num1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.num2 {
+  display: flex;
+  flex-direction: row;
+}
